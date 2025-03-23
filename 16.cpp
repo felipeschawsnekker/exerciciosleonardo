@@ -29,16 +29,16 @@ int main (){
         cout<<"A cossecante é: "<<cossecante<<endl;
     } 
     else {
-        cout<<"Cossecante não pode ser calculada";
+        cout<<"Cossecante não pode ser calculada"<<endl;
     } 
     
     
     if (cosseno!=0){
-       secante=1/seno;
+       secante=1/cosseno;
        cout<<"A secante é: "<<secante<<endl;
     }
     else {
-        cout<<"Secante não pode ser calculada";
+        cout<<"Secante não pode ser calculada"<<endl;
     }
 
     if(tangente!=0){
